@@ -8,6 +8,7 @@ In the command prompt just type "python permutations.py your_string" i.e. python
 
 A simple recursive algorithm that computes all the possible subsets of a given set. 
 
-In the command prompt type "python power_set.py your_array" i.e. python power_set.py [a,b,c,d]
+In the command prompt type "python power_set.py your_set" i.e. python power_set.py [a,b,c,d]
+Note: Duplicates will be ignored. Input [a,b,a,b,a] will be treated as [a,b]
 
 
