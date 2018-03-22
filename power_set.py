@@ -29,7 +29,7 @@ if len(arguments) != 2:
     sys.exit(0)
 
 input = arguments[1].replace(",",'')
-array = list(input[1:len(input)-1])
+array = set(input[1:len(input)-1])
 
 print("Number of subsets: ", len(power_set(array)))
 for subset in power_set(array):
